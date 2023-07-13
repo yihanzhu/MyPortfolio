@@ -37,7 +37,7 @@ const about = () => {
     <>
       <Head>
         <title>Yihan Zhu | About</title>
-        <meta name="description" content="any desciption" />
+        <meta name="description" content="Yihan About" />
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-8">

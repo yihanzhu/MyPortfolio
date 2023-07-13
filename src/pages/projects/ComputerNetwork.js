@@ -265,7 +265,7 @@ const Home = () => {
     <>
       <Head>
         <title>Yihan Zhu | Projects - Computer Network</title>
-        <meta name="description" content="any desciption" />
+        <meta name="description" content="Yihan Projects - Computer Network" />
       </Head>
       <AnimatedText
         text="Platform - under Construction"
