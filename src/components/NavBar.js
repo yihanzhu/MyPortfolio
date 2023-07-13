@@ -73,6 +73,7 @@ const NavBar = () => {
       bg-light dark:bg-dark border-b-2 border-solid"
     >
       <button
+        id="NavButton"
         className="flex-col justify-center items-center hidden lg:flex"
         onClick={handleClick}
       >
@@ -133,6 +134,7 @@ const NavBar = () => {
       </div>
 
       <button
+        id="ThemesButton"
         onClick={() => setMode(mode === "light" ? "dark" : "light")}
         className={`w-6 ml-3 flex items-center justify-center rounded-full p-1
           ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
