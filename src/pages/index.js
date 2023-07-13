@@ -41,7 +41,7 @@ export default function Home() {
                   hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download={true}
                 >
-                  Resume <LinkArrow className={"w-6 ml-1"} />
+                  Resume <LinkArrow className={"w-auto ml-1"} />
                 </Link>
                 <Link
                   href="mailto:yihan@yihanzhu.com"
