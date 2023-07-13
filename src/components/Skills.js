@@ -25,11 +25,11 @@ const Skills = () => {
       </h2>
       <div
         className="w-full h-screen relative flex items-center justify-center rounded-full
-      lg:h-[80vh] sm:h-[60vh] xs:h-[40vh] "
+          lg:h-[80vh] sm:h-[60vh] xs:h-[40vh] "
       >
         <motion.div
           className="flex items-center justify-center rounded-full font-semibold bg-dark text-light
-        p-8 shadow-dark cursor-pointer dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2"
+            p-8 shadow-dark cursor-pointer dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 2 }}
         >
           Tech

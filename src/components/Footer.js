@@ -1,12 +1,10 @@
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 import Layout from "./Layout";
 
 const Footer = () => {
   return (
-    <footer
-      className="w-full border-t-2 border-solid font-medium text-lg dark:text-light sm:text-base"
-    >
+    <footer className="w-full border-t-2 border-solid font-medium text-lg dark:text-light sm:text-base">
       <Layout className=" flex items-center justify-between lg:flex-col py-4 xs:py-4 sm:py-4 md:py-4 lg:py-4 xl:py-4">
         <span>{new Date().getFullYear()}&copy; All Rights Reserved. </span>
         {/* <div className="flex items-center lg:py-2">

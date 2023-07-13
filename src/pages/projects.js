@@ -14,12 +14,12 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article
       className="w-full flex items-center justify-between relative rounded-3xl rounded-br-2xl
-      border border-solid border-dark  bg-light shadow-2xl p-12 dark:border-light dark:bg-dark
-      lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
+        border border-solid border-dark  bg-light shadow-2xl p-12 dark:border-light dark:bg-dark
+        lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
     >
       <div
         className="absolute top-0 -right-3 -z-10 w-[100.5%] h-[102%] rounded-[2rem] bg-dark dark:bg-light
-      rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]"
+          rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]"
       />
       <div
         href={link}
@@ -74,11 +74,11 @@ const Project = ({ title, type, img, link, github }) => {
   return (
     <article
       className="w-full flex flex-col items-center justify-center rounded-2xl 
-      border border-solid border-dark bg-light p-6 relative dark:border-light dark:bg-dark xs:p-4"
+        border border-solid border-dark bg-light p-6 relative dark:border-light dark:bg-dark xs:p-4"
     >
       <div
         className="absolute top-0 -right-3 -z-10 w-[101.6%] h-[102%] rounded-[2rem] bg-dark dark:bg-light
-      rounded-br-3xl  md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]"
+          rounded-br-3xl  md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]"
       />
       <Link
         href={link}
@@ -145,7 +145,7 @@ const projects = () => {
                 title="Modular Learning Platform for the Computer Network Industry"
                 img={projectComputerNetwork}
                 summary="A secure networking framework for pedagogical purposes,
-                focusing on instructing network components and functionalities and assessing student progress for a deeper comprehension of complex network concepts."
+                  focusing on instructing network components and functionalities and assessing student progress for a deeper comprehension of complex network concepts."
                 link="./projects/ComputerNetwork"
                 github="https://github.com/yihanzhu/ComputerNetworkProject"
                 type="Featured Project"

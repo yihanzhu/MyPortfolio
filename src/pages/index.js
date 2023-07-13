@@ -1,10 +1,10 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
-import Image from "next/image";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+// import Image from "next/image";
+// import profilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
-import { LinkArrow } from "@/components/Icon";
+// import { LinkArrow } from "@/components/Icon";
 
 export default function Home() {
   return (
@@ -35,10 +35,10 @@ export default function Home() {
                   href="/Yihan_Zhu_Software_Engineer_Resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg
-                  font-semibold hover:bg-light hover:text-dark
-                  border border-solid border-transparent hover:border-dark
-                  dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
-                  hover:dark:border-light md:p-2 md:px-4 md:text-base"
+                    font-semibold hover:bg-light hover:text-dark
+                    border border-solid border-transparent hover:border-dark
+                    dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
+                    hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download={true}
                 >
                   Resume 

@@ -7,8 +7,7 @@ const Details = ({ type, time, place, info }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between
-      md:w-[80%]"
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
     >
       <LiIcon reference={ref} />
       <motion.div
@@ -36,8 +35,7 @@ const Education = () => {
   });
   return (
     <div className="my-64">
-    <h2 className="font-bold mt-64 mb-16 w-full text-center md:mt-32 text-7xl lg:!text-6xl md:!text-5xl sm:!text-4xl xs:!text-3xl">
-        {" "}
+      <h2 className="font-bold mt-64 mb-16 w-full text-center md:mt-32 text-7xl lg:!text-6xl md:!text-5xl sm:!text-4xl xs:!text-3xl">
         Education
       </h2>
 
