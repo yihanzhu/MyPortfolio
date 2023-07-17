@@ -99,9 +99,7 @@ const about = () => {
               />
             </div> */}
 
-            <div
-              className="col-span-2 flex flex-col item-center justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3"
-            >
+            <div className="col-span-2 flex flex-col item-center justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={10} /> +

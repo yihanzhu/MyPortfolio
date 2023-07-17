@@ -11,7 +11,10 @@ export default function Home() {
     <>
       <Head>
         <title>Yihan Zhu | Home</title>
-        <meta name="description" content="Yihan Portfolio, built by NextJS and Tailwind CSS" />
+        <meta
+          name="description"
+          content="Yihan Portfolio, built by NextJS and Tailwind CSS"
+        />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:p-16 sm:pt-8">
@@ -41,7 +44,7 @@ export default function Home() {
                     hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download={true}
                 >
-                  Resume 
+                  Resume
                   {/* <LinkArrow className={"w-auto ml-1"} /> */}
                 </Link>
                 <Link
