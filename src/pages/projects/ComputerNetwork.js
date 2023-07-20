@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Window from "./Window";
-import AdminSection from "./AdminSection";
-import UserSection from "./UserSection";
-import SendMessage from "./SendMessage";
-import DisplayMessage from "./DisplayMessage";
+import Window from "../../components/project/Window";
+import AdminSection from "../../components/project/AdminSection";
+import UserSection from "../../components/project/UserSection";
+import SendMessage from "../../components/project/SendMessage";
+import DisplayMessage from "../../components/project/DisplayMessage";
 
 const Page = () => {
   const [isAdmin, setIsAdmin] = useState(false);
