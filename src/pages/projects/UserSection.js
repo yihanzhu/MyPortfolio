@@ -31,7 +31,7 @@ const UserSection = ({
   return (
     <div className="flex flex-col items-center justify-center p-4 bg-gray-200 border rounded-md">
       <h2 className="mb-4 text-lg font-bold">
-        {`Upload to {side}'s {selectedTabName}`}
+        {`Upload to ${side}'s ${selectedTabName}`}
       </h2>
       <input className="text-center" type="file" onChange={handleFileChange} />
       <button
