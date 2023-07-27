@@ -57,7 +57,14 @@ const Page = () => {
   };
 
   const handleSend = (message) => {
-    setMessage(message);
+    if (
+      senderFileUploads.includes(true) &&
+      receiverFileUploads.includes(true)
+    ) {
+      setMessage("Tests Passed");
+    } else {
+      setMessage("Tests Failed");
+    }
     const newAdminTabColors = [...adminTabColors];
     const newUserTabColors = [...userTabColors];
 
@@ -98,7 +105,7 @@ const Page = () => {
         )}
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-1 gap-4">
         <Window
           name="Sender"
           isAdmin={isAdmin}

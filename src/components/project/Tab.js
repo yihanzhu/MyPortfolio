@@ -1,6 +1,14 @@
 import React from "react";
 
-const Tab = ({ color, onClick, isAdmin, children, isSelected, isUploaded, isSend }) => {
+const Tab = ({
+  color,
+  onClick,
+  isAdmin,
+  children,
+  isSelected,
+  isUploaded,
+  isSend,
+}) => {
   let colorClass = "";
   switch (color) {
     case "green":
@@ -17,13 +25,13 @@ const Tab = ({ color, onClick, isAdmin, children, isSelected, isUploaded, isSend
       break;
   }
   if (isSelected) {
-    colorClass = 'bg-red-500'; // selected by admin
+    colorClass = "bg-red-500"; // selected by admin
   }
   if (isUploaded) {
-    colorClass = 'bg-yellow-500'; // file has been uploaded
+    colorClass = "bg-yellow-500"; // file has been uploaded
   }
   if (isSend) {
-    colorClass = 'bg-green-500'; // file has been uploaded
+    colorClass = "bg-green-500"; // file has been uploaded
   }
   return (
     <div

@@ -9,7 +9,7 @@ const UserSection = ({
   setFileUploads,
   setMessage,
   selectedTabName,
-  confirmedTabs
+  confirmedTabs,
 }) => {
   const [file, setFile] = useState(null);
 
@@ -36,7 +36,9 @@ const UserSection = ({
       <input className="text-center" type="file" onChange={handleFileChange} />
       <button
         onClick={handleUpload}
-        className={` rounded-md  p-2 text-white ${isUploadEnabled ? "bg-blue-500" : "bg-gray-300"}`}
+        className={` rounded-md  p-2 text-white ${
+          isUploadEnabled ? "bg-blue-500" : "bg-gray-300"
+        }`}
         disabled={!isUploadEnabled}
       >
         Upload
