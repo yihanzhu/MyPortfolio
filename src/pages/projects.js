@@ -147,7 +147,7 @@ const projects = () => {
                 summary="A secure networking framework for pedagogical purposes,
                   focusing on instructing network components and functionalities and assessing student progress for a deeper comprehension of complex network concepts."
                 link="./projects/ComputerNetwork"
-                github="https://github.com/yihanzhu/ComputerNetworkProject"
+                github="https://github.com/yihanzhu/comput_netw_app"
                 type="Featured Project"
               />
             </div>
